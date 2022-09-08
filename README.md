@@ -1,1 +1,1 @@
-# https://LestatR.github.io/rsschool-cv/cv
+# https://LestatR.github.io/rsschool-cv/
