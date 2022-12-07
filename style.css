@@ -1,26 +1,37 @@
 * {
     scroll-behavior: smooth;
+    /* border: 1px solid white; */
 }
 
 header {
-    background-color: rgb(236, 161, 100);
-    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(1, 41, 41 0);
+    /* border: 1px solid rgb(255, 255, 255); */
 }
 
 body {
-    background-color: rgb(177, 177, 177);
+    background-color: rgb(41, 41, 41 0);
     font-family: 'Licorice', cursive;
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
-    color: rgb(32, 31, 31);
+    /* color: rgb(32, 31, 31); */
+    color: #fff;
+    background-color: #000;
 }
-
-.main-container {}
 
 a {
     text-decoration: none;
     color: rgb(228, 83, 0);
+}
+
+a:hover {
+    color: white;
+    transition: .3s;
+}
+
+.main {
+    background-color: rgb(41, 41, 41);
+    border-radius: 150px;
 }
 
 .container {
@@ -39,8 +50,6 @@ a {
     margin: 0 auto;
 }
 
-.nav {}
-
 .nav-list {
     display: flex;
     justify-content: flex-end;
@@ -56,8 +65,15 @@ a {
     color: rgb(255, 255, 255);
 }
 
+.nav-link:hover {
+    /* filter: contrast(10%); */
+    filter: brightness(40%) drop-shadow(0px 0px 5px white);
+}
+
 .section {
     width: 50%;
+    padding-left: 1px;
+    ;
     /* margin-top: 50px; */
 }
 
@@ -71,14 +87,13 @@ a {
 }
 
 .section-profile {
-    margin-top: 50px;
+    /* margin-top: 50px; */
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    //border: 1px solid red;
 }
 
 .section-profile-photo {
@@ -91,21 +106,22 @@ a {
     transition: .3s;
 }
 
-pre {
+
+/* pre {
     width: 100%;
     padding: 10px;
     margin: 0;
     font-size: 12px;
     line-height: 20px;
     background-color: rgb(200 200 200);
-}
+} */
 
 footer {
-    background-color: rgb(66, 63, 61);
+    background-color: rgb(1, 41, 41 0);
     color: white;
     text-decoration: none;
     font-size: 20px;
-    border: 1px solid rgb(255, 255, 255);
+    /* border: 1px solid rgb(255, 255, 255); */
 }
 
 .footer-container {
@@ -113,12 +129,29 @@ footer {
     align-items: center;
     margin: 0 auto;
     flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-item {
+    width: 100px;
 }
 
 .svg-rss {
-    width: 50%;
+    width: 100%;
+    filter: drop-shadow(0px 0px 3px white);
+}
+
+.svg-rss:hover {
+    filter: drop-shadow(6px 6px 10px white);
+    transition: .3s;
 }
 
 .svg-git {
-    width: 25%;
+    width: 50%;
+    filter: drop-shadow(0px 0px 3px white);
+}
+
+.svg-git:hover {
+    filter: drop-shadow(16px 16px 20px white);
+    transition: .3s;
 }
