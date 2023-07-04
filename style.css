@@ -51,10 +51,11 @@ a:hover {
 
 .nav-list {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     flex-wrap: wrap;
     align-items: center;
     list-style: none;
+    padding-left: 0;
 }
 
 .nav-link {
@@ -69,7 +70,7 @@ a:hover {
 }
 
 .section {
-    width: 50%;
+    width: 60%;
     padding-left: 1px;
     background-color: rgb(43 46 48);
     margin-bottom: 5px;
