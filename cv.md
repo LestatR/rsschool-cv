@@ -3,6 +3,7 @@
 ![photo](/photo.jpg "my photo")
 
 ##Junior Frontend Developer
+##Music editor on radio
 
 ====
 ##Contact information
